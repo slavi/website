@@ -14,7 +14,14 @@ var rotator1 = {
       "b09_inside6.jpg", "b09_inside7.jpg", "b09_inside8.jpg", "b09_inside9.jpg", "b09_inside10.jpg", 
       "b09_inside11.jpg", "b09_inside12.jpg", "b09_inside13.jpg", "b09_inside14.jpg", "b09_inside15.jpg", 
       "b09_inside16.jpg", "b09_inside17.jpg", "b09_inside18.jpg", "b09_inside19.jpg", "b09_inside20.jpg",
-      "b09_outside1.jpg"
+      "b09_outside1.jpg",
+      "b10_1.jpg", "b10_2.jpg", "b10_3.jpg", "b10_4.jpg", "b10_5.jpg", 
+      "b10_6.jpg", "b10_7.jpg", "b10_8.jpg", "b10_9.jpg", "b10_10.jpg", 
+      "b10_11.jpg", "b10_12.jpg", "b10_13.jpg", "b10_14.jpg", "b10_15.jpg", 
+      "b10_16.jpg", "b10_17.jpg", "b10_18.jpg", "b10_19.jpg", "b10_20.jpg",
+      "b10_21.jpg", "b10_22.jpg", "b10_23.jpg", "b10_24.jpg", "b10_25.jpg",
+      "b10_26.jpg", "b10_27.jpg", "b10_28.jpg", "b10_29.jpg", "b10_30.jpg",
+      "b10_31.jpg", "b10_32.jpg"
 	],
 	bTrans: true,    
 	bMouse: true,	
