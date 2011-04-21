@@ -4,9 +4,9 @@
         <span class="menufake" >Projects</span>
         <div style="position:relative;top:0px;left:25px;width:100px;height:60px;display:inline;" align="left">
             <ul >
-                <li ><a href="workshops.html" class="submenu">Workshops</a></li>
+                <li ><a href="workshops.php" class="submenu">Workshops</a></li>
                 <li><a href="seminars.html" class="submenu">Seminars</a></li>
-                <li><a href="lsess.html" class="submenu">LSE summer school</a></li>
+                <li><a href="lsess.php" class="submenu">LSE summer school</a></li>
                 <li><a href="essay_2008.html" class="submenu">Competitions</a></li>
             </ul>
         </div>

@@ -1,20 +1,38 @@
+<?php 
+  require_once "./php/template_helpers.php";
+  
+  $past_workshops = array(
+    construct_workshop("Bankya, November 2010", "./workshop_2010.php"),
+    construct_workshop("Bankya, November 2009", "./workshop_2009.html"),
+    construct_workshop("Gyuletchica, November 2008", "./workshop_2008_fall.html"),
+    construct_workshop("Zlatni Piasatsi, May 2008", "./workshop_2008.html"),
+    construct_workshop("Gyuletchica, November 2007", "./workshop_2007.html"),
+    construct_workshop("Gyuletchica, November 2006", "./workshop_2006.html"));
+
+  $current_workshops = array(construct_workshop("Apriltsi, April 2011", "./workshop_2011.php"));
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <script src="js/header.js" type="text/javascript"></script>
 
 <body>
-<div class="container" style="height:1250px;">
-<div  class="myheader"></div>
-
-<script src="js/menu.js" type="text/javascript"></script>
-
-<div class="mainarea" style="height:1000px;">
-<div class="maintext" style="height:1000px;"><br />
-<div class="textpadder">
-<span class="titletext">Workshops</span>
-<p>
-<em>
+<div class="containerNoSize">
+  <div  class="myheader"></div>
+  
+  <script src="js/menu.js" type="text/javascript"></script>
+  
+  <div class="mainarea">
+    
+    <div class="maintextNoSize" style="width: 372px;"><br />
+      
+      <div class="textpadderNoSize" style="width:342px;">
+        
+        <span class="titletext">Workshops</span>
+        
+        <p>
+          <em>
 "I am happy that I had the chance to participate in the "New Normal" Workshop of Aleksander Foundation 
 in 2009. It was a very enriching experience that made me think how active and 
 motivated one should be in order to achieve their career aims. What I enjoyed most was the 
@@ -43,7 +61,7 @@ who look forward to meeting you."
 <strong>The Aleksander Foundation</strong> is committed to developing student's skills
 through applied, hands-on workshops. The workshops are weekend-long
 trainings targeted towards undergraduate and graduate students in economics
-and finance. The topic of each event is chosen from the current national &
+and finance. The topic of each event is chosen from the current national &amp;
 worldwide economic environment. The focal point of the first two workshops
 was market volatility and trading tactics, respectively. The Business
 Development Workshop however, was more micro-oriented and focused on
@@ -55,23 +73,26 @@ workshops also provide students with unmatched opportunities for idea
 generation and networking.
 <br />
 <br />
-<b>Past Workshops: </b><br />
-<div id="listFixer" style="left:25px;width:200px;height:84px;" >
-    <img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2010.html">Bankya, November 2010</a><br />
-    <img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2009.html">Bankya, November 2009</a><br />
-	<img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2008_fall.html">Gyuletchica, November 2008</a><br />
-	<img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2008.html">Zlatni Piasatsi, May 2008</a><br />
-	<img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2007.html">Gyuletchica, November 2007</a><br />
-	<img src="images/bullet.gif" alt="The Aleksander Foundation" />&nbsp;&nbsp;<a href="workshop_2006.html">Gyuletchica, November 2006</a><br />
-</div><!--/listFixer2-->
 
+<?php
+  if (isset($current_workshops) && count($current_workshops) > 0)
+  {
+    echo "<b>Current Workshops:</b><br />";
+    render_list(200, $current_workshops);
+    echo "<br />";
+  }
+?>
+
+            <b>Past Workshops: </b><br />
+            <?php render_list(200, $past_workshops) ?>
 </div>
 </div>
 <!--/textpadder--><!--/maintext-->
-<div class="imageholder""></div>
+<div class="imageholder"></div>
 <!--/imageholder-->
 </div>
 <!--/mainarea-->
+
 
 <script src="js/footer.js" type="text/javascript"></script>
 

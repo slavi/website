@@ -1,7 +1,7 @@
 document.write("<br style=\"clear:both;\" />");
 document.write("<div class=\"myfooter\" >");
 document.write("<div style=\"position:relative;height:56px;width:100%;\"></div>");
-document.write("<div id=\"copyright\">&copy; 2005-2010 The Aleksander Foundation. All Rights Reserved.");
+document.write("<div id=\"copyright\">&copy; 2005-2011 The Aleksander Foundation. All Rights Reserved.");
 document.write("</div>");
 document.write("</div>");
 
