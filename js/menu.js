@@ -6,7 +6,7 @@ document.write("<div style=\"position:relative;top:0px;left:25px;width:100px;hei
 document.write("<li ><a href=\"workshops.php\" class=\"submenu\">Workshops</a></li>");
 document.write("<li><a href=\"seminars.html\" class=\"submenu\">Seminars</a></li>");
 document.write("<li><a href=\"public_lectures.php\" class=\"submenu\">Public Lectures</a></li>");
-document.write("<li><a href=\"essay_2008.html\" class=\"submenu\">Alumni Reunions</a></li>");
+document.write("<li><a href=\"reunions.php\" class=\"submenu\">Alumni Reunions</a></li>");
 document.write("<li><a href=\"lsess.php\" class=\"submenu\">LSE summer school</a></li>");
 document.write("<li><a href=\"essay_2008.html\" class=\"submenu\">Competitions</a></li>");
 document.write("</ul></div>");

@@ -4,12 +4,11 @@
   $past_workshops = array(
     construct_workshop("Bankya, November 2010", "./workshop_2010.php"),
     construct_workshop("Bankya, November 2009", "./workshop_2009.html"),
-    construct_workshop("Gyuletchica, November 2008", "./workshop_2008_fall.html"),
     construct_workshop("Zlatni Piasatsi, May 2008", "./workshop_2008.html"),
     construct_workshop("Gyuletchica, November 2007", "./workshop_2007.html"),
     construct_workshop("Gyuletchica, November 2006", "./workshop_2006.html"));
 
-  $current_workshops = array(construct_workshop("Apriltsi, April 2011", "./workshop_2011.php"));
+  $current_workshops = array();
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
