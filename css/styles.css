@@ -280,6 +280,17 @@ background-image:url(../images/style.jpg);
 background-repeat:no-repeat;
 }
 
+.imageholderreunion {
+width:140px;
+height:93px;
+float:left;
+position:relative;
+top:55px;
+left:30px;
+background-image:url(../images/reunion.jpg);
+background-repeat:no-repeat;
+}
+
 
 .titletext {
 	font-family: Arial, Helvetica, sans-serif;
