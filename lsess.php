@@ -4,10 +4,10 @@
   
   $past_summer_schools = array(
     construct_school(2010, get_lse_php_url(2010)),
-    construct_school(2009, get_lse_php_url(2010)),
-    construct_school(2008, get_lse_php_url(2010)),
+    construct_school(2009, get_lse_php_url(2009)),
+    construct_school(2008, get_lse_php_url(2008)),
     construct_school(2007, "./files/lse_2007.pdf"),
-    construct_school(2006, get_lse_php_url(2010)));
+    construct_school(2006, get_lse_php_url(2006)));
 
   $current_summer_schools = array(construct_school(2011, get_lse_php_url(2011)));
 ?>
