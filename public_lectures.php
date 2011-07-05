@@ -44,7 +44,7 @@ academic community, taking advantage of the knowledge and traditions of the worl
           </div>
         </div><!--/textpadder--><!--/maintext-->
 
-        <div class="imageholderlse"></div> <!--/imageholder-->
+        <div class="imageholder"></div> <!--/imageholder-->
 
       </div><!--/mainarea-->
 
