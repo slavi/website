@@ -2,7 +2,7 @@
 
   require_once "./php/template_helpers.php";
   
-  $past_lectures = array(construct_link("Marketing: From Theory to Practice", "./lecture_jan_2011.php"));
+  $past_lectures = array(construct_link("Marketing: From Theory to Practice", "./files/public_lecture_2011_01_Chernev.doc"));
 
   $current_lectures = array();
 ?>
